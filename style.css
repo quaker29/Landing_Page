@@ -5,7 +5,8 @@ body {
 
 .Logo {
     font-size: 24px;
-    color: #F9FAF8
+    color: #F9FAF8;
+    font-weight: bold;
 }
 
 .photo_logo {
@@ -34,6 +35,43 @@ ul {
     gap: 16px;
     list-style-type: none;
     font-size: 18px;
-    color: #E5E7EB
-
+    color: #E5E7EB;
   }
+
+.section_one {
+    background-color: #1f2937; 
+    padding: 4em 150px 4em 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro {
+    max-width: 500px;
+    
+}
+
+.second_intro {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    padding-bottom: 10px;
+}
+
+.second_text {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-bottom: 10px;
+}
+
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 3px 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
