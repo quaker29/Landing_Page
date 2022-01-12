@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    
 }
 
 .Logo {
@@ -44,12 +45,14 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .intro {
     max-width: 500px;
     
 }
+
 
 .second_intro {
     font-size: 48px;
@@ -73,5 +76,43 @@ button {
     padding: 3px 20px;
     font-weight: bold;
     font-size: 15px;
+}
+
+.intro_photo {
+    width: 400px;
+    height: auto;
+}
+
+.section_two {
+    text-align: center;
+    margin-bottom: 64px;
+   
+}
+
+.title_two {
+    margin: 32px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937
+
+
+}
+
+.section_two_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4em;
+    
+}
+
+.photo_section {
+    width: 250px;
+    height: auto;
+}
+
+.photo_section img {
+    width: 100%;
+    height: auto;
 }
 
