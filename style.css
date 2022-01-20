@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    
 }
 
 .Logo {
@@ -45,14 +44,11 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .intro {
     max-width: 500px;
-    
 }
-
 
 .second_intro {
     font-size: 48px;
@@ -66,7 +62,6 @@ ul {
     color: #E5E7EB;
     padding-bottom: 10px;
 }
-
 
 button {
     background-color: #3882F6;
@@ -86,7 +81,6 @@ button {
 .section_two {
     text-align: center;
     margin-bottom: 64px;
-   
 }
 
 .title_two {
@@ -94,8 +88,6 @@ button {
     font-size: 36px;
     font-weight: bold;
     color: #1f2937
-
-
 }
 
 .section_two_container {
@@ -103,7 +95,6 @@ button {
     align-items: center;
     justify-content: center;
     gap: 4em;
-    
 }
 
 .photo_section {
@@ -115,4 +106,34 @@ button {
     width: 100%;
     height: auto;
 }
+
+.section_three {
+    padding: 64px;
+    background-color: #E5E7EB;
+    padding: 4em 150px 4em 150px;
+    
+}
+.three {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.paragraph_block {
+    max-width: 750px;
+    font-size: 36px;
+    font-weight: italic;
+    color: #1f2937;
+}
+
+.signature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 550px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 
