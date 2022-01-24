@@ -43,7 +43,7 @@ ul {
     padding: 4em 150px 4em 150px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .intro {
@@ -136,4 +136,35 @@ button {
     font-weight: bold;
 }
 
+.section_four {
+    display: flex;
+    justify-content: center;
+    padding: 6em;
+}
 
+.center_ad {
+    background-color: #3882F6;
+    display: flex;
+    padding: 50px 90px;
+    border-radius: 15px;
+}
+
+.ad {
+    color: #E5E7EB;
+    font-size: 20px;
+    padding-right: 6em;
+}
+
+.white_outline {
+    border: 2px solid white;
+    padding: 0px 35px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 45px;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #F9FAF8;
+}
